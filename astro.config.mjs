@@ -5,11 +5,12 @@ import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
+	site: "https://eminence-astro-cloudflare-workers.xeffen25.com/",
 	adapter: cloudflare({
 		platformProxy: {
 			enabled: true,
 		},
-
 		imageService: "cloudflare",
 	}),
+	output: "server",
 });
