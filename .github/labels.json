@@ -1,5 +1,10 @@
 [
 	{
+		"name": "bug",
+		"color": "d73a4a",
+		"description": "Something isn't working"
+	},
+	{
 		"name": "duplicate",
 		"color": "cfd3d7",
 		"description": "This issue or pull request already exists"
@@ -47,7 +52,7 @@
 	{
 		"name": "fix",
 		"color": "d73a4a",
-		"description": "A bug fix"
+		"description": "A fix for an issue"
 	},
 	{
 		"name": "refactor",
@@ -75,6 +80,11 @@
 		"description": "Cloudflare Pages, Workers, or adapter specific changes"
 	},
 	{
+		"name": "github",
+		"color": "6e5494",
+		"description": "Related to Github workflows, repository configuration, or issue/PR management"
+	},
+	{
 		"name": "ci",
 		"color": "1f6feb",
 		"description": "Continuous Integration and automated testing improvements"
@@ -83,6 +93,16 @@
 		"name": "cd",
 		"color": "1d76db",
 		"description": "Continuous Delivery and deployment pipeline tweaks"
+	},
+	{
+		"name": "dx",
+		"color": "0e8a16",
+		"description": "Developer Experience improvements and tooling"
+	},
+	{
+		"name": "locale",
+		"color": "5319e7",
+		"description": "Localization, internationalization, and language support"
 	},
 	{
 		"name": "seo",
