@@ -2,7 +2,7 @@
 
 - [ ] **Branch Name:** Follows `issue-number-type/description`.
 - [ ] **Commitment:** I understand this PR will be **squashed** into a single commit.
-- [ ] **Staging**(optional)**:** Branch is prefixed with `staging/` and Cloudflare Preview is verified.
+- [ ] **Staging**(optional)**:** Cloudflare Preview link is in Reference and verified that it is working correctly.
 - [ ] **Quality:** `pnpm run check` passes locally with no Astro/Typescript errors.
 
 ---
